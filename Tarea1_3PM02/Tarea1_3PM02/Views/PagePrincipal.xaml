@@ -26,7 +26,7 @@
             <DataTemplate>
                 <StackLayout>
                     <Label Text="{Binding id}" FontSize="Body" TextColor="Red" HorizontalOptions="Center" />
-                    <Label Text="{Binding nombres}" FontSize="Title" TextColor="Black" HorizontalOptions="Center" />
+                    <Label Text="{Binding nombres}" FontSize="Title"  HorizontalOptions="Center" />
                     <Label Text="{Binding apellidos}" FontSize="Subtitle" HorizontalOptions="Center" />
                     <Label Text="{Binding edad}" FontSize="Subtitle" HorizontalOptions="Center" />
                     <Label Text="{Binding correo}" FontSize="Subtitle" HorizontalOptions="Center" />

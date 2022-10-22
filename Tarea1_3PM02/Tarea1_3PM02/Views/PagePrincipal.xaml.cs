@@ -51,7 +51,7 @@ namespace Tarea1_3PM02.Views
             
             var item = sender as Button;
             var emple = item.CommandParameter as Models.Empleado;
-            var result = await DisplayAlert("Borrar", $"Borrar {emple.nombres} de la base de datos", "SI", "NO");
+            var result = await DisplayAlert("Alerta de Eliminar", $"Desea Eliminar a {emple.nombres} de la base de datos de los empleados", "SI", "NO");
             if (result)
             {
                 await App.Dbemple.DeleteEmple(emple);
